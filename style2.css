@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: serif;
+    background-color: rgb(255, 255, 255);
+}
+
+img{
+    width: 60px;
+    height: 60px;
+}
+
+
+header{
+    background-color: rgb(86, 85, 85);
+    padding: 10px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+}

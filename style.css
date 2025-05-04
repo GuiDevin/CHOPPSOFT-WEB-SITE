@@ -1,0 +1,265 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: serif;
+    background-color: rgb(255, 255, 255);
+}
+
+img {
+    width: 60px;
+    height: 60px;
+    max-width: 100%; 
+    height: auto;
+}
+
+/* header */
+header {
+    background-color: rgb(86, 85, 85);
+    position: sticky;
+    padding: 10px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 100; 
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px; 
+    margin: auto;
+}
+
+.container1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; 
+}
+
+ul {
+    display: flex;
+    gap: 20px; 
+    text-transform: uppercase;
+    flex-wrap: wrap; 
+    justify-content: center; 
+}
+
+li {
+    list-style-type: none;
+    padding: 8px 15px;
+    font-size: 18px; 
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+    padding: 8px 20px;
+}
+
+.link:hover {
+    background-color: rgb(187, 140, 0);
+    color: white;
+    border-radius: 8px;
+}
+ 
+/*texto intro*/
+.content{
+    font-size: 30px; 
+    width: 90%; 
+    max-width: 60ch; 
+    margin: auto;
+    text-align: center;
+    margin-top: 50px; 
+    text-align: justify;
+}
+.Sobre{
+    margin: 0 auto;
+    padding-bottom: 14px;
+    scroll-margin-top: 100px;
+}
+
+
+/*fundo*/
+.img {
+    background-image: url(choppe.jpg);
+    background-size: cover;
+    background-repeat: repeat;
+}
+
+.fundo {
+    padding: 20px 0; 
+    font-size: 28px; 
+    width: 90%; 
+    max-width: 60ch; 
+    margin: auto;
+    text-align: center;
+    margin-top: 30px; 
+    text-align: justify;
+}
+
+
+/*footer*/
+footer{
+    background-color: rgb(86, 85, 85);
+    padding: 18px;
+    color: white;
+}
+.foot{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.logo{
+    display: flex;
+    gap: 15px;
+}
+i{
+    font-size: 25px;
+    color: white;
+}
+
+
+/*produtos*/    
+.produtos{
+    border: 2px solid black;
+    padding: 20px;
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 110px;
+    scroll-margin-top: 110px;
+}
+.chopp{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+    flex-wrap: wrap;
+}
+.img_chopp{
+    width: 400px;
+    height: 300px;
+}
+.descricao h2{
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.descricao p{
+    width: 100%;
+    max-width: 40ch;
+    font-size: 26px;
+    text-align: justify;
+}
+
+
+
+.divisor {
+    border: none;
+    height: 2px;
+    background-color: black;
+    width: 80%;
+    margin: 80px auto;
+}
+
+
+
+/*btn*/
+.btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.construa{
+  font-size: 40px;
+  text-decoration: none;
+  color: black;
+  border: 3px solid black;
+  border-radius: 8px;
+  padding: 8px 20px;
+  background-color: #ccc;
+}
+.construa:hover{
+    background-color: rgb(187, 140, 0);
+    color: white;
+}
+
+
+.curiosidade{
+    font-size: 35px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+
+/*contatos*/
+.contatos{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 35px;
+    scroll-margin-top: 100px;
+}
+
+iframe{
+    width: 100%;
+}
+.iframe{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.address{
+    width: 100%;
+    margin: 10px auto 50px;
+    text-align: end;
+    font-size: 20px;
+}
+
+/*fim*/
+.nosso_contato{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.lista{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+    list-style-type: none;
+    max-width: 1060px;
+}
+.lista_item{
+    flex-basis: 320px;
+    background-color: #ccc9c9;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+    border: 2px solid black;
+    text-align: center;
+    min-height: 340px;
+    overflow: hidden; 
+    position: relative;
+
+    background-image: url(/imagens_membros/barril\ fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.lista_img{
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin-top: 118px;
+}
+.nome{
+    margin-top: 10px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.email{
+    margin: 10px 0 0;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
